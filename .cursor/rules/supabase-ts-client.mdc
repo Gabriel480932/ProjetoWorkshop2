@@ -1,0 +1,13 @@
+---
+description: Integração TypeScript/React com Supabase (@supabase/supabase-js, SSR).
+globs: "**/supabase.{ts,tsx},**/lib/supabase/**/*.{ts,tsx},**/utils/supabase/**/*.{ts,tsx}"
+alwaysApply: false
+---
+
+# Cliente Supabase no código
+
+Ao editar estes ficheiros:
+
+1. Carregar a skill **supabase-fullstack-senior** e alinhar chamadas ao que **RLS e schema** permitem.
+2. Consultar **Cursor Docs** indexados (ex. `@Supabase V3`) para APIs de Auth, sessão e cliente da tua versão.
+3. Garantir separação **browser (anon/publishable)** vs **servidor (service_role só em segredo)**.

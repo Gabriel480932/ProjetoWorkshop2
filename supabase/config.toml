@@ -1,0 +1,27 @@
+# Supabase local dev config — https://supabase.com/docs/guides/local-development
+[api]
+port = 54321
+
+[db]
+port = 54322
+shadow_port = 54320
+major_version = 15
+
+[studio]
+port = 54323
+
+[inbucket]
+port = 54324
+
+[storage]
+file_size_limit = "50MiB"
+
+[auth]
+site_url = "http://localhost:5173"
+additional_redirect_urls = ["https://forgee.com.br"]
+jwt_expiry = 3600
+enable_signup = false   # Apenas o admin pode criar contas
+
+[auth.email]
+enable_signup = false
+enable_confirmations = false

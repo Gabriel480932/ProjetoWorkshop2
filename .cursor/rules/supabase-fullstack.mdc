@@ -1,0 +1,16 @@
+---
+description: Subagente Supabase fullstack — Postgres, migrações, RLS e integração cliente/servidor.
+globs: "**/supabase/**,**/*.sql"
+alwaysApply: false
+---
+
+# Supabase neste projeto
+
+Ao editar migrações, SQL ou ficheiros em `supabase/`:
+
+1. Aplicar a skill **supabase-fullstack-senior** (`.cursor/skills/supabase-fullstack-senior/SKILL.md`) — papel de DBA/integration sênior até o fluxo ficar funcional de ponta a ponta.
+2. Aplicar o skill oficial **supabase** do plugin (RLS, views, segurança, CLI).
+3. Recuperar primeiro a documentação **indexada no Cursor Docs** (ex.: `@Supabase V3` ou o nome que indexaste) para APIs e padrões da tua stack.
+4. Com **MCP Supabase** ligado: inspecionar tabelas/advisors antes de mudanças grandes; validar após alterações.
+
+Objetivo: tabelas PostgreSQL, funções, RLS e código cliente alinhados e verificáveis.
